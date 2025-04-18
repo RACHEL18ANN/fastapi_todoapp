@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import io from 'socket.io-client';
 // ...existing code...
 
-const socket = io('http://localhost:5173');
+const socket = io("https://fastapi-todoapp-3elh.onrender.com/");
 
 function TaskList() {
     const [tasks, setTasks] = useState([]);
