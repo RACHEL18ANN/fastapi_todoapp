@@ -4,7 +4,7 @@ import TodoList from "./TodoList";
 
 function App() {
   const [tasks, setTasks] = useState([]);
-  const API_URL = "http://127.0.0.1:8001/tasks/"; // Added trailing slash
+  const API_URL = "https://fastapi-todoapp-3elh.onrender.com/"; // Added trailing slash
 
   // Fetch tasks from the backend
   useEffect(() => {

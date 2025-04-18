@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8001/todos/";
+const API_URL = "https://fastapi-todoapp-3elh.onrender.com/";
 
 export const getTodos = async () => {
     const response = await axios.get(API_URL);
