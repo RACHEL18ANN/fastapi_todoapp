@@ -4,7 +4,7 @@ import TodoList from "./TodoList";
 
 function App() {
   const [tasks, setTasks] = useState([]);
-  const API_URL = "https://fastapi-todoapp-3elh.onrender.com/"; // Added trailing slash
+  const API_URL = "https://fastapi-todoapp-3elh.onrender.com/";
 
   // Fetch tasks from the backend
   useEffect(() => {
@@ -52,7 +52,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div className="app-container">
       <h1>React TODO App</h1>
       <TodoList
         tasks={tasks}
